@@ -18,6 +18,7 @@ function removeElementFromEndOfArray(arr){
   ice = ice.slice(-1)
 }
 
+<<<<<<< HEAD
 
 function addElementToEndOfArray(arr, element){
   var bob = [arr]
@@ -57,4 +58,15 @@ function destructivelyRemoveElementFromEndOfArray(arr){
   var bob = arr;
   bob.pop(); 
   return bob;
+=======
+function destructivelyRemoveElementFromEndOfArray(arr){
+  var bob = [arr];
+  return bob; 
+}
+
+function destructivelyAddElementToBeginningOfArray(arr, element){
+  var bob = arr
+  bob.unshift(element)
+  return bob
+>>>>>>> 4067e9d8ae90195a0997fa782f9a6fd49d461c3a
 }
